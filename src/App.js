@@ -10,7 +10,7 @@ const App = () => {
     <Router>
       <div className="App">
         <div className="header">
-          <Link to="/">
+          <Link to="/react-find-recipes">
             <h1 className="header__title header__title--white">FindRecipes</h1>
           </Link>
         </div>
