@@ -16,10 +16,7 @@ const App = () => {
         </div>
 
         <Route path="/react-find-recipes" component={Home} exact />
-        <Route
-          path="/react-find-recipes/detail-recipe"
-          component={DetailRecipe}
-        />
+        <Route path="/detail-recipe" component={DetailRecipe} />
       </div>
     </Router>
   );
