@@ -1,0 +1,27 @@
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  padding: 0 75px;
+  background-color: rgba(95, 158, 160, 0.5);
+}
+
+.header__title {
+  font-size: 20px;
+}
+
+.header__title--white {
+  color: white;
+}
+
+.search-form {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
